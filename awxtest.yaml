@@ -1,0 +1,6 @@
+- name: awx test sample code
+  hosts: all
+  tasks:
+    - name: test Message
+      debug:
+        msg: "Hello World!!!!!!"
