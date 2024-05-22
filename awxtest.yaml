@@ -4,4 +4,4 @@
     - name: test Message
       debug:
         msg: "Hello World!!!!!!"
-      loop: "{range(1, 100 + 1) | list}"
+      loop: "range(1, 100 + 1) | list"
