@@ -5,7 +5,7 @@
       debug:
         msg: "Hello World!!!!!!"
       loop: [1,2,3,4,5]
-  tasks:
+
     - name: test Message2
       debug:
         msg: "Hello World2222222"
